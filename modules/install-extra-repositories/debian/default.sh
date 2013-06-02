@@ -7,15 +7,15 @@ if question --default yes "Do you want to optimise the default repositories? War
 	# Check Country
 	if [ $(read_var_module_var mirror_debian) = 0 ]; then
 		# Set Country
-		MIRROR="http://ftp.us.debian.org/debian/"
+		MIRROR="http://mirror.bytemark.co.uk/debian/"
 	else
 		# Set Country
 		MIRROR=$(read_var_module_var mirror_debian)
 	fi
-	# Update Squeeze Repository
-	echo "deb $MIRROR squeeze main contrib non-free" > /etc/apt/sources.list
-	# Update Squeeze Updates Repository
-	echo "deb $MIRROR squeeze-updates main contrib non-free" >> /etc/apt/sources.list
-	# Update Squeeze Security Repository
-	echo "deb http://security.debian.org/ squeeze/updates main contrib non-free" >> /etc/apt/sources.list
+	# Update Wheezy Repository
+	echo "deb $MIRROR wheezy main contrib non-free" > /etc/apt/sources.list
+	# Update Wheezy Updates Repository
+	echo "deb $MIRROR wheezy-updates main contrib non-free" >> /etc/apt/sources.list
+	# Update Wheezy Security Repository
+	echo "deb http://security.debian.org/ wheezy/updates main contrib non-free" >> /etc/apt/sources.list
 fi
