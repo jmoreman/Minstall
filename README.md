@@ -10,8 +10,8 @@ Compatibility
 
 **Operating Systems:**
 
- + Debian 6 (Squeeze) 64 Bit
- + Debian 6 (Squeeze) 32 Bit
+ + Debian 7 (Wheezy) 64 Bit
+ + Debian 7 (Wheezy) 32 Bit
  + Ubuntu 12.04 (Precise Pangolin) 32 Bit
  + Ubuntu 12.04 (Precise Pangolin) 64 Bit
 
