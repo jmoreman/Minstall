@@ -9,6 +9,6 @@ if [ $(uname -m) = "x86_64" ]; then
 		# Add Repository Key
 		repo_key "http://download.proxmox.com/debian/key.asc"
 		# Add Repository
-		repo_add "proxmox" "deb http://download.proxmox.com/debian/ squeeze pve"
+		repo_add "proxmox" "deb http://download.proxmox.com/debian/ wheezy pve"
 	fi
 fi
